@@ -59,7 +59,7 @@ const Calculator = () => {
         <button onClick={() => updateCalc("+")}>+</button>
         <button onClick={() => updateCalc("-")}>-</button>
 
-        <button onClick={deleteLast}>DEl</button>
+        <button onClick={deleteLast}>DEL</button>
       </div>
       <div className="digits">
         {createDigits()}
